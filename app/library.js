@@ -5,7 +5,9 @@ module.exports = {
  /* Find the average of three integers */
  computeAverage: function(num1, num2, num3) {
    var average;
-   return average;
+   average = (num1 + num2 + num3 / 3);
+
+	return average;
  },
  
  /* Find the factorial of an integer */
