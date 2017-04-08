@@ -1,14 +1,9 @@
-
-'use strict'
-
-module.exports = {
-
-fizzBuzz: function(x) {
+function: fizzBuzz(x) {
 	if (x % 15 ==0 ) {
 		return "FizzBuzz"
 	}
 	else if ( x % 3 == 0) {
-		return "Fizz";
+		return "fizz";
 
 	} 
 	else if (x % 5 == 0) {
@@ -21,5 +16,4 @@ fizzBuzz: function(x) {
 		return x ;
 	}
 
-}
 }
